@@ -1,10 +1,10 @@
 class Dog:
     def __init__(self, name, breed, owner):
-        self.name = name
-        self.breed = breed
-        self.owner = owner
+        self.name = name   # this shows the dog has a name attribute
+        self.breed = breed # this shows the dog has a breed attribute
+        self.owner = owner # this shows the dog has a owner attribute
 
-    def bark(self):
+    def bark(self):        # Methods are functions defined insde of a class
         print("woof woof")
 
 class Owner:
@@ -26,3 +26,5 @@ dog2 = Dog("Ferdinand", "Scottish Bulldog", owner2)
 # print(dog2.name)
 # print(dog2.breed)
 print(dog2.owner.name)
+
+
