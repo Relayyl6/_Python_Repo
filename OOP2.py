@@ -4,5 +4,11 @@ class Person:
         self.age = age
 
     def greet(self):
-        print("Hello, my name is {self.name} and I am {self.age} years old.")
+        print(f"Hello, my name is {self.name} and I am {self.age} years old.")
 
+
+person1 = Person("Alice", 39)
+person1.greet()
+
+person2 = Person("john", 25)
+person1.greet()
